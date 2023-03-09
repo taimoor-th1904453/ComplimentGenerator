@@ -4,7 +4,7 @@ import IconButton from '@mui/material/IconButton';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import { QueryClient, QueryClientProvider, useQuery } from "@tanstack/react-query";
-import '../styles/home.module.css'
+import styles from  '../styles/home.module.css'
 import complimentsData from '../../data/compliments.json';
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
